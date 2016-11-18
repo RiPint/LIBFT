@@ -6,7 +6,7 @@
 /*   By: bwanlin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 08:26:02 by bwanlin           #+#    #+#             */
-/*   Updated: 2016/01/19 17:47:28 by jerollin         ###   ########.fr       */
+/*   Updated: 2016/11/18 17:53:18 by jerollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <string.h>
 # include <stdlib.h>
 
+char				*ft_strndup(const char *str, size_t n);
 void				ft_swap(int *a, int *b);
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
